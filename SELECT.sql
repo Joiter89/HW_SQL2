@@ -12,7 +12,7 @@ select name from Collection
 where year_release between 2018 and 2020;
 
 select name from Artist
-where name not like '% %'
+where name not like '% %';
 
 select name from Track
 where name ilike '%мой%' or name ilike '%my%';
